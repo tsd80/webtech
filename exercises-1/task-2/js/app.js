@@ -19,7 +19,6 @@ const calcGCD = (a, b) =>{
   if (a%b===0) {return b}
   //recursively entering function with ex. 10%15=
   return calcGCD(b, a%b);
-
 };
 
 const clearIt = () => {
