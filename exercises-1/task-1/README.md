@@ -1,0 +1,1 @@
+Write a function that calculates and returns the BMI value, given two parameters height and weight. Return value undefined if BMI can not be calculated. Write an application that allows the user to input their height and weight, and shows their BMI after a “calculate BMI” button is pressed.

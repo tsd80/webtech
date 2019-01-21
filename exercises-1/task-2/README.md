@@ -1,0 +1,1 @@
+Write a function to compute the greatest common divisor (gcd) of its two arguments. Hint: search for Euclid’s algorithm and write an application that allows the user to input a numerator and a denominator and shows the value in simplified (sievennetty) format with help of the gcd function. For example, 9/30 would be simplified to 3/10. 
