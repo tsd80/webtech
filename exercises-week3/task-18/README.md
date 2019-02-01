@@ -1,0 +1,1 @@
+Create a class MetropoliaStudent that behaves like Student in the example, but additionally participates in Metka activities and gets 1 credit with grade 5 and course name ‘Metka’ after 4 activities. See classes.js example code in OMA for Human, Student etc. classes.
