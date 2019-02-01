@@ -1,6 +1,6 @@
 'use strict';
 class Marker {
-   /**
+  /**
    * Marker maker.
    * @param {number} ink - An amount of ink in marker.
    */
@@ -59,6 +59,7 @@ class Marker {
     }
   }
 }
+
 const removeIt = (what) => {
   return what.takeCapOff()?"Cap has been removed":"You already removed it!";
 };
