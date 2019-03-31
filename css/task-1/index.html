@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Traffic light</title>
-    <link href="http://dev.tsyganok.net/libs/normalize.css" rel="stylesheet">
+    <link href="https://lib.tsyganok.net/normalize.css" rel="stylesheet">
+    <link href="https://lib.tsyganok.net/font/Cabin-Sketch.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+<div id="text">Traffic light</div>
+<div id="sun"></div>
+<div id="hills"></div>
 <div id="traffic-light">
     <div id="red" class="light"></div>
     <div id="yellow" class="light"></div>
     <div id="green" class="light"></div>
 </div>
 <div id="vertBar"></div>
-
-
+<div id="info">
+    <div>You've clicked: <span id="what"></span></div>
+    <div>This many times:<span id="count"></span></div>
+</div>
 
 </body>
 </html>

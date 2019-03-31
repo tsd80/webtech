@@ -1,7 +1,59 @@
-body {
-
+html {
+    width: 100vw;
+    height: 100vh;
+    background: -webkit-radial-gradient(rgb(183, 228, 102), rgb(187, 234, 223));
+    background: radial-gradient(rgb(183, 228, 102), rgb(187, 234, 223));
 }
 
+body {
+    font-family: 'Cabin Sketch', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#text {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 2em;
+}
+
+#sun {
+    background: rgb(255, 195, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px rgba(255, 195, 26,0.9);
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    z-index: -2;
+    animation: shining 4s infinite;
+}
+
+#hills {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #2ba844;
+    z-index: -1;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 150%;
+}
+
+#hills::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #67ff2d;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 20%;
+
+}
 
 /*traffic light*/
 #traffic-light {
@@ -41,4 +93,27 @@ body {
     width: 10px;
     height: 100px;
     background-color: black;
+}
+#info {
+    width: 350px;
+    height: 45px;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border-radius: 5%;
+    border: solid 2px #777777;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shining {
+    50% {box-shadow:0 0 100px rgba(255, 195, 26,0.9);}
+}
+
+/* Standard syntax */
+@keyframes shining {
+    50% {box-shadow:0 0 30px rgba(255, 138, 7, 0.6);}
 }
