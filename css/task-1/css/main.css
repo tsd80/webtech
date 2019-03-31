@@ -96,7 +96,7 @@ body {
 }
 #info {
     width: 350px;
-    height: 45px;
+    height: 65px;
     background-color: rgba(0,0,0,0.1);
     position: absolute;
     bottom: 40px;
@@ -110,10 +110,10 @@ body {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes shining {
-    50% {box-shadow:0 0 100px rgba(255, 195, 26,0.9);}
+    50% {box-shadow:0 0 300px rgba(255, 195, 26,0.9);}
 }
 
 /* Standard syntax */
 @keyframes shining {
-    50% {box-shadow:0 0 30px rgba(255, 138, 7, 0.6);}
+    50% {box-shadow:0 0 30px rgba(255, 138, 7, 0.5);}
 }
